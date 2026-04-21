@@ -44,7 +44,27 @@ Example Outputs
 ---------------
 ![Hourly Accident Pattern](images/houroftheday.png)
 
-Shows clear peaks during commuting times, highlighting the impact of traffic volume.
+### Accident Frequency by Hour
+
+The distribution of accidents across the day shows a clear temporal pattern. Accident frequency is lowest during the early morning hours (00:00–05:00), which reflects reduced traffic volume during these times.
+
+From around 06:00, accident counts begin to increase as people start commuting to work or school. The number of accidents continues to rise throughout the day, reaching a peak between approximately 16:00 and 18:00. This likely corresponds to evening rush hour, where increased traffic congestion, time pressure, and driver fatigue contribute to a higher likelihood of accidents.
+
+After this peak, accident frequency gradually decreases into the evening and night.
+
+Overall, the pattern suggests that accident frequency is strongly influenced by traffic volume and daily commuting behaviour.
+
+<img src="images/Trainingdecisiontree.png" width="100%">
+
+### Decision Tree Model (Training Data)
+
+The decision tree shows how accident severity is predicted based on key factors in the dataset.
+
+The first split is based on the **number of vehicles involved**, indicating that multi-vehicle accidents have different severity patterns compared to single-vehicle incidents.
+
+Further splits show that **number of casualties** and **location (urban vs rural)** are also important predictors. Accidents in rural areas and those involving more casualties tend to be associated with higher severity.
+
+Overall, the model highlights that accident severity is influenced more by **traffic conditions and environment** rather than individual factors alone.
 
 
 Modelling Approach
