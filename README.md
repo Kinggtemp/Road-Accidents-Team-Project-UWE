@@ -1,13 +1,11 @@
 # Road-Accidents-Team-Project-UWE
----------------------------------
 
 Team Members
 ------------
-Alex Bashford
-Sam Nganga
-Hussein Toppozada
+Alex Bashford, Sam Nganga and Hussein Toppozada
 
 Road Accident Analysis & Prediction (UWE Team Project)
+------------------------------------------------------
 
 This project explores road accident data in the UK to understand the factors that influence accident severity and to build a model that can predict how serious an accident is likely to be.
 
