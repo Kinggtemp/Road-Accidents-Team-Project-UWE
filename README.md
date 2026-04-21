@@ -11,21 +11,22 @@ This project explores road accident data in the UK to understand the factors tha
 
 The aim of the project was to combine data analysis, statistical testing, and machine learning to identify patterns in accidents and provide insights that could support road safety improvements.
 
-Project Overview
-----------------
-
--Analysed a real-world road accident dataset using SPSS and Python
+What Was Done
+-------------
+Analysed a real-world road accident dataset using SPSS and Python
 
 Explored trends across:
 
 -Time (hour of day, monthly patterns)
 
 -Environmental conditions (weather, lighting, road surface)
+
 -Vehicle types involved
 
--Investigated relationships between variables using cross-tabulation and hypothesis testing
+-Investigated relationships using cross-tabulation and hypothesis testing
 
 -Built a Decision Tree (CRT model) to predict accident severity
+
 
 Key Findings
 ------------
@@ -34,12 +35,15 @@ Key Findings
 
 -Most serious accidents occur in fine weather, likely due to higher traffic volume
 
--Certain vehicle types (e.g. cars and motorcycles) are more frequently involved in severe accidents
-
 -After addressing class imbalance, the final model achieved:
 ~61% accuracy
 
 -Better performance predicting serious accidents (≈64.6%) than slight ones
+
+Example Outputs
+---------------
+(images/houroftheday.png)
+
 
 Modelling Approach
 ------------------
@@ -47,13 +51,29 @@ A CRT decision tree was used after initial models struggled with class imbalance
 
 To improve performance:
 
--The dataset was balanced
+-Balanced the dataset
 
 -Variables were cleaned and grouped where needed
 
 -The model was re-trained and evaluated on test data
 
 The final model showed consistent performance between training and test sets, suggesting good generalisation.
+
+Skills Demonstrated
+-------------------
+-Exploratory Data Analysis (EDA)
+
+-Data cleaning & preprocessing
+
+-Statistical analysis (Chi-square, cross-tabulation)
+
+-Machine learning (Decision Trees - CRT)
+
+-Handling class imbalance
+
+-Data visualisation
+
+-Git collaboration
 
 Tools Used
 ----------
@@ -71,18 +91,10 @@ Data/ – raw and processed datasets
 
 Documentation/ – notes, planning, and project write-up
 
+images/ – graphs and model outputs
+
 README.md – project overview
 
 Purpose of This Project
 -----------------------
-This project was completed as part of a first-year Data Science module at UWE Bristol. It demonstrates skills in:
-
--Exploratory Data Analysis (EDA)
-
--Statistical reasoning
-
--Data cleaning and preparation
-
--Predictive modelling
-
--Team collaboration using Git
+This project was completed as part of a first-year Data Science module at UWE Bristol. It demonstrates practical skills in analysing real-world data, building predictive models, and working collaboratively in a team environment.
