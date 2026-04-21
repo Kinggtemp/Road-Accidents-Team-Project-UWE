@@ -42,7 +42,9 @@ Key Findings
 
 Example Outputs
 ---------------
-(images/houroftheday.png)
+![Hourly Accident Pattern](images/houroftheday.png)
+
+Shows clear peaks during commuting times, highlighting the impact of traffic volume.
 
 
 Modelling Approach
